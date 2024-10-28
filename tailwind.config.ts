@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'mochiy': ['"Mochiy Pop One"', 'sans-serif'],
+        'montserrat': ['"Montserrat"', 'sans-serif'], // Tambahkan font baru
+      },
     },
   },
   plugins: [],
